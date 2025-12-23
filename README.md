@@ -2,6 +2,7 @@
 
 A full-stack Admin Portal built using **Next.js App Router**, **Prisma**, and **MongoDB**.  
 This project demonstrates authentication, protected routes, and clean backend APIs.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ---
 
@@ -76,7 +77,7 @@ npx prisma migrate dev
 bash
 Copy code
 npm run dev
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
 
 🧪 Testing
 Register a new user
