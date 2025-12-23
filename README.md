@@ -48,7 +48,7 @@ prisma/
 public/
 
 yaml
-Copy code
+
 
 ---
 
@@ -59,23 +59,15 @@ Copy code
 git clone https://github.com/your-username/admin-portal.git
 cd admin-portal
 2️⃣ Install dependencies
-bash
-Copy code
 npm install
 3️⃣ Setup environment variables
 Create a .env file in the root:
-
 env
-Copy code
 DATABASE_URL="your_database_url_here"
 4️⃣ Prisma setup
-bash
-Copy code
 npx prisma generate
 npx prisma migrate dev
 5️⃣ Run the project
-bash
-Copy code
 npm run dev
 
 
